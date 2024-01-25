@@ -26,7 +26,7 @@ const Navbar = () => {
       ref={navbarRef}
       className={` ${currentScrollPos < 10 ? "bg-transparent" : "bg-black"} ${
         visible ? "translate-y-0 z-50 " : "-translate-y-full z-auto"
-      }  h-20 text-white fixed top-0 w-full transition-transform duration-300`}
+      }  h-20 text-white fixed top-0 z-50 w-full transition-transform duration-300`}
     >
       <div className="max-w-7xl m-auto h-full px-3">
         <NavbarItem />

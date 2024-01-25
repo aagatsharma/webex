@@ -22,6 +22,7 @@ module.exports = {
         roboto: ["Roboto", "sans-serif"],
       },
       colors: {
+        black: "#181818",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

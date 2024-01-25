@@ -20,7 +20,7 @@ const Navbar = () => {
       window.removeEventListener("scroll", handleScroll);
       console.log("scroll", visible);
     };
-  }, [prevScrollPos, visible]);
+  }, [currentScrollPos, prevScrollPos, visible]);
 
   return (
     <nav

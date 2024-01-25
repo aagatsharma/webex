@@ -15,10 +15,9 @@ const Navbar = () => {
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
-    console.log("scroll", visible);
+
     return () => {
       window.removeEventListener("scroll", handleScroll);
-      console.log("scroll", visible);
     };
   }, [currentScrollPos, prevScrollPos, visible]);
 

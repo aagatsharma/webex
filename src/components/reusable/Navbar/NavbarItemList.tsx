@@ -1,9 +1,8 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import NavbarProductItem from "./NavbarItems/NavbarProductItem";
-import NavbarDeviceItem from "./NavbarItems/NavbarDeviceItem";
 import NavbarSolutionItem from "./NavbarItems/NavbarSolutionItem";
 import NavbarResourcesItem from "./NavbarItems/NavbarResourcesItem";
 
@@ -12,10 +11,7 @@ const products = [
     label: "Products",
     component: <NavbarProductItem />,
   },
-  {
-    label: "Devices",
-    component: <NavbarDeviceItem />,
-  },
+
   {
     label: "Solutions",
     component: <NavbarSolutionItem />,
@@ -23,6 +19,10 @@ const products = [
   {
     label: "Resources",
     component: <NavbarResourcesItem />,
+  },
+  {
+    label: "Developer",
+    link: "/developer",
   },
   {
     label: "Plans and Pricing",

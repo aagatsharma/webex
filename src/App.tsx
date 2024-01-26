@@ -12,7 +12,7 @@ import Navbar from "./components/reusable/Navbar/Navbar";
 const Layout = () => (
   <>
     <Navbar />
-    <main>
+    <main className="mt-20">
       <Outlet />
     </main>
     <Footer />
@@ -46,7 +46,7 @@ export default function App() {
           element: <Accessibility />,
         },
         {
-          path: "/customer",
+          path: "/contact-us",
           element: <Customer />,
         },
       ],

@@ -26,9 +26,14 @@ const Navbar = () => {
       ref={navbarRef}
       className={` ${
         visible ? "translate-y-0 z-50 " : "-translate-y-full z-auto"
-      } ${
-        currentScrollPos < 10 ? "bg-transparent" : "bg-black"
-      }  h-20 text-white fixed top-0 z-50 w-full transition-transform duration-300 bg-black`}
+      } 
+      h-20 text-white fixed top-0 z-50 w-full transition-transform duration-300 bg-black
+      `}
+      // ${
+      //     currentScrollPos < 10 && currentPath === "/"
+      //       ? "bg-transparent"
+      //       : "bg-black"
+      //     }
     >
       <div className="max-w-7xl m-auto h-full px-3">
         <NavbarItem />

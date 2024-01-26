@@ -81,7 +81,7 @@ const NavbarProductItem = () => {
   return (
     <div className=" max-w-7xl m-auto px-2 flex w-full justify-between items-start  ">
       <div className="flex flex-col gap-y-3">
-        <h1 className="text-black/60">WebSuiteX Suite</h1>
+        <h1 className="text-black/60 uppercase">WebSuiteX Suite</h1>
         <div className="grid grid-cols-2 gap-6 pt-3">
           {websuite.map((feature) => (
             <ProductItem
@@ -93,7 +93,7 @@ const NavbarProductItem = () => {
         </div>
       </div>
       <div className="flex flex-col gap-y-3">
-        <h1 className="text-black/60">WorkSpaces</h1>
+        <h1 className="text-black/60 uppercase">WorkSpaces</h1>
         <div className="grid grid-cols-1 gap-6 pt-3">
           {workspaceCategories.map((feature) => (
             <ProductItem
@@ -104,7 +104,7 @@ const NavbarProductItem = () => {
         </div>
       </div>
       <div className="flex flex-col gap-y-3">
-        <h1 className="text-black/60">Customer Service</h1>
+        <h1 className="text-black/60 uppercase">Customer Service</h1>
         <div className="flex flex-col gap-6 pt-3">
           {customerService.map((feature) => (
             <ProductItem

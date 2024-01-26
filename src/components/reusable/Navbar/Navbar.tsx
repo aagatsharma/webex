@@ -35,7 +35,7 @@ const Navbar = () => {
       //       : "bg-black"
       //     }
     >
-      <div className="max-w-7xl m-auto h-full px-3">
+      <div className="max-w-7xl m-auto h-full px-5">
         <NavbarItem />
       </div>
     </nav>

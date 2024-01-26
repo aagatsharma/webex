@@ -12,7 +12,7 @@ const FooterStarter = () => {
         src={bgImage}
         alt="Background Image"
       />
-      <div className="absolute inset-0 max-w-7xl m-auto top-32 ">
+      <div className="absolute inset-0 max-w-7xl m-auto top-32 max-md:top-24 ">
         <Link to="/">
           <img src={Logo} alt="Company Logo" />
         </Link>
@@ -20,8 +20,8 @@ const FooterStarter = () => {
       <div className="absolute inset-0 max-w-7xl m-auto flex flex-col justify-end bottom-20 px-2 ">
         <div className="flex justify-between items-center text-white max-md:flex-col max-md:gap-y-3">
           <p className=" text-7xl font-bold">Get started for free.</p>
-          <div className="w-[400px]">
-            <p className="text-2xl">
+          <div className="w-[400px] max-md:w-full">
+            <p className="text-2xl max-md:text-xl ">
               Additional features, storage, and support start at just one low
               price.
             </p>

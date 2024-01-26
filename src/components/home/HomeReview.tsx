@@ -18,7 +18,7 @@ import { ArrowRight } from "lucide-react";
 
 const Reviews = ({ icon, text }: ReviewsProps) => {
   return (
-    <div className="flex items-center justify-center space-x-4 w-full">
+    <div className="flex items-center justify-center space-x-4 w-full max-md:flex-col">
       <img src={icon} alt="Icon" />
       <p>{text}</p>
       <Button variant="link" className="gap-2 text-emerald-600">
@@ -41,22 +41,20 @@ const HomeReview = () => {
     },
   ];
   return (
-    <div className="w-full bg-emerald-50 h-14 flex items-center">
-      <div className="max-w-7xl m-auto w-full ">
-        <Carousel>
-          <CarouselContent className="">
-            {itemsArray.map((items, index) => (
-              <CarouselItem key={index}>
-                <div className="flex justify-center items-center  max-w-7xl">
-                  <Reviews icon={items.icon} text={items.text} />
-                </div>
-              </CarouselItem>
-            ))}
-          </CarouselContent>
-          <CarouselPrevious className="bg-transparent border-none hover:bg-transparent" />
-          <CarouselNext className="bg-transparent border-none hover:bg-transparent" />
-        </Carousel>
-      </div>
+    <div className=" bg-emerald-50 py-6 w-screen">
+      <Carousel className=" max-w-64 m-auto w-full sm:max-w-xs md:max-w-xl lg:max-w-4xl xl:max-w-6xl">
+        <CarouselContent>
+          {itemsArray.map((items, index) => (
+            <CarouselItem key={index}>
+              <div className="flex flex-1 justify-center items-center max-lg:flex-col ">
+                <Reviews icon={items.icon} text={items.text} />
+              </div>
+            </CarouselItem>
+          ))}
+        </CarouselContent>
+        <CarouselPrevious className="bg-transparent border-none hover:bg-transparent " />
+        <CarouselNext className="bg-transparent border-none hover:bg-transparent" />
+      </Carousel>
     </div>
   );
 };

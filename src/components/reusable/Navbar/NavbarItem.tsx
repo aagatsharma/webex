@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
 import { Button } from "../../ui/button";
-import { Menu } from "lucide-react";
+
 import Logo from "@/assets/logo.svg";
 import NavbarItemList from "./NavbarItemList";
+import MobileNav from "./MobileNav/MobileNav";
 
 const NavbarItem = () => {
   return (
@@ -32,7 +33,7 @@ const NavbarItem = () => {
             <Link to="/contact-us">Contact Us</Link>
           </Button>
           <div className="lg:hidden">
-            <Menu />
+            <MobileNav />
           </div>
         </div>
       </div>

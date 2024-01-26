@@ -18,13 +18,18 @@ const MobileNav = () => {
         <Menu className="w-6 h-6" />
       </SheetTrigger>
 
-      <SheetContent side="top" className=" w-screen min-h-screen">
+      <SheetContent
+        side="top"
+        className=" w-screen max-h-screen min-h-screen overflow-y-scroll lg:hidden"
+      >
         <SheetClose asChild>
           <Button
             className="h-14 bg-black text-white rounded-full text-base hover:bg-emerald-600 
              font-medium "
           >
-            <Link to="/contact-us">Contact Us</Link>
+            <SheetClose asChild>
+              <Link to="/contact-us">Contact Us</Link>
+            </SheetClose>
           </Button>
         </SheetClose>
         <div>

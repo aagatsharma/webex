@@ -34,28 +34,28 @@ const NavbarSolutionItem = () => {
   ];
 
   return (
-    <div className=" max-w-7xl m-auto px-2 flex w-full justify-between items-start  ">
+    <div className=" max-w-7xl m-auto px-2 flex w-full justify-between items-start max-lg:flex-col max-lg:gap-y-6  ">
       <div className="flex flex-col gap-y-3">
         <h1 className="text-black/60 uppercase">Support</h1>
         <div className="grid grid-cols-1 gap-6 pt-3">
-          {supportArray.map((item) => (
-            <ResourceItem item={item} />
+          {supportArray.map((item, index) => (
+            <ResourceItem item={item} key={index} />
           ))}
         </div>
       </div>
       <div className="flex flex-col gap-y-3">
         <h1 className="text-black/60 uppercase">Learn</h1>
         <div className="grid grid-cols-1 gap-6 pt-3">
-          {learnArray.map((item) => (
-            <ResourceItem item={item} />
+          {learnArray.map((item, index) => (
+            <ResourceItem item={item} key={index} />
           ))}
         </div>
       </div>
       <div className="flex flex-col gap-y-3">
         <h1 className="text-black/60 uppercase">Integration</h1>
         <div className="flex flex-col gap-6 pt-3">
-          {integrationsArray.map((item) => (
-            <ResourceItem item={item} />
+          {integrationsArray.map((item, index) => (
+            <ResourceItem item={item} key={index} />
           ))}
         </div>
       </div>

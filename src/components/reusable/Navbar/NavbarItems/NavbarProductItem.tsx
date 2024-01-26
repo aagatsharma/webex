@@ -79,12 +79,13 @@ const NavbarProductItem = () => {
   ];
 
   return (
-    <div className=" max-w-7xl m-auto px-2 flex w-full justify-between items-start  ">
+    <div className=" max-w-7xl m-auto px-2 flex w-full justify-between items-start max-lg:flex-col max-lg:gap-y-6  ">
       <div className="flex flex-col gap-y-3">
         <h1 className="text-black/60 uppercase">WebSuiteX Suite</h1>
-        <div className="grid grid-cols-2 gap-6 pt-3">
+        <div className="grid grid-cols-2 gap-6 pt-3 max-md:grid-cols-1">
           {websuite.map((feature) => (
             <ProductItem
+              key={feature.label}
               logo={feature.logo}
               description={feature.description}
               label={feature.label}
@@ -97,6 +98,7 @@ const NavbarProductItem = () => {
         <div className="grid grid-cols-1 gap-6 pt-3">
           {workspaceCategories.map((feature) => (
             <ProductItem
+              key={feature.label}
               description={feature.description}
               label={feature.label}
             />
@@ -108,6 +110,7 @@ const NavbarProductItem = () => {
         <div className="flex flex-col gap-6 pt-3">
           {customerService.map((feature) => (
             <ProductItem
+              key={feature.label}
               description={feature.description}
               label={feature.label}
             />

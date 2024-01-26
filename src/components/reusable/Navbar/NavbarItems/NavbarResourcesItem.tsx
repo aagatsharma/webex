@@ -37,28 +37,28 @@ const NavbarResourcesItem = () => {
   ];
 
   return (
-    <div className=" max-w-7xl m-auto px-2 flex w-full justify-between items-start  ">
+    <div className=" max-w-7xl m-auto px-2 flex w-full justify-between items-start max-lg:flex-col max-lg:gap-y-6  ">
       <div className="flex flex-col gap-y-3">
         <h1 className="text-black/60">Industries</h1>
         <div className="grid grid-cols-1 gap-6 pt-3">
-          {industriesArray.map((item) => (
-            <ResourceItem item={item} />
+          {industriesArray.map((item, index) => (
+            <ResourceItem item={item} key={index} />
           ))}
         </div>
       </div>
       <div className="flex flex-col gap-y-3">
         <h1 className="text-black/60">Use Cases</h1>
         <div className="grid grid-cols-1 gap-6 pt-3">
-          {useCasesArray.map((item) => (
-            <ResourceItem item={item} />
+          {useCasesArray.map((item, index) => (
+            <ResourceItem item={item} key={index} />
           ))}
         </div>
       </div>
       <div className="flex flex-col gap-y-3">
         <h1 className="text-black/60">Cross-Platform</h1>
         <div className="flex flex-col gap-6 pt-3">
-          {crossPlatformArray.map((item) => (
-            <ResourceItem item={item} />
+          {crossPlatformArray.map((item, index) => (
+            <ResourceItem item={item} key={index} />
           ))}
         </div>
       </div>

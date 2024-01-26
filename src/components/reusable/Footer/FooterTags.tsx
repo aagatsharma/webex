@@ -80,7 +80,7 @@ const FooterTags = () => {
       </div>
       <Accordion type="single" collapsible className="w-full px-5 md:hidden ">
         {Object.entries(menu).map(([label, components]) => (
-          <AccordionItem value={label} key={label}>
+          <AccordionItem value={label} key={label} className="border-none">
             <AccordionTrigger className="font-bold text-lg">
               {label}
             </AccordionTrigger>

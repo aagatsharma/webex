@@ -61,7 +61,7 @@ const HomeTabs = () => {
         {tabsData.map((tab) => (
           <TabsContent
             value={tab.label}
-            className="max-w-6xl m-auto  my-10"
+            className="max-w-7xl m-auto  my-10"
             key={tab.label}
           >
             <TabCards

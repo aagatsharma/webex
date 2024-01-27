@@ -18,10 +18,16 @@ const NavbarItem = () => {
       </div>
       <div className="flex">
         <div className="flex items-center max-lg:hidden">
-          <Button variant="link" className="text-white text-base">
+          <Button
+            variant="link"
+            className="text-white text-base border-b-2 border-transparent hover:border-emerald-600"
+          >
             <Link to="/meetings">Join a Meeting</Link>
           </Button>
-          <Button variant="link" className="text-white text-base">
+          <Button
+            variant="link"
+            className="text-white text-base border-b-2 border-transparent hover:border-emerald-600"
+          >
             <Link to="/accessibility">Accessibility</Link>
           </Button>
         </div>

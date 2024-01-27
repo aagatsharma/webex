@@ -47,7 +47,7 @@ const NavbarItemList = () => {
             <div className="group">
               <Button
                 variant="link"
-                className="text-white flex items-center justify-center border-emerald-600"
+                className="text-white flex items-center justify-center border-b-2 border-transparent hover:border-emerald-600"
                 onClick={() => handleButtonClick(index)}
               >
                 <span className={showNav[index] ? "text-emerald-600" : ""}>
@@ -68,7 +68,7 @@ const NavbarItemList = () => {
           ) : (
             <Button
               variant="link"
-              className="text-white flex items-center justify-center border-emerald-600"
+              className="text-white flex items-center justify-center border-transparent border-b-2 hover:border-emerald-600"
             >
               <Link to={product.link}>{product.label}</Link>
             </Button>

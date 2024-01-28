@@ -1,4 +1,5 @@
 import AccessibilityCards from "@/components/accessibility/AccessibilityCards";
+import AccessibilityFeatures from "@/components/accessibility/AccessibilityFeatures";
 import AccessibilityStarter from "@/components/accessibility/AccessibilityStarter";
 
 const Accessibility = () => {
@@ -6,6 +7,7 @@ const Accessibility = () => {
     <div>
       <AccessibilityStarter />
       <AccessibilityCards />
+      <AccessibilityFeatures />
     </div>
   );
 };

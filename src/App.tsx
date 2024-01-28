@@ -1,4 +1,9 @@
-import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
+import {
+  createBrowserRouter,
+  Outlet,
+  RouterProvider,
+  ScrollRestoration,
+} from "react-router-dom";
 import Home from "./pages/Home";
 import Pricing from "./pages/Pricing";
 import Meetings from "./pages/Meetings";
@@ -11,6 +16,7 @@ import Navbar from "./components/reusable/Navbar/Navbar";
 
 const Layout = () => (
   <>
+    <ScrollRestoration />
     <Navbar />
     <main className="mt-20">
       <Outlet />

@@ -20,7 +20,7 @@ const MobileNav = () => {
 
       <SheetContent
         side="top"
-        className=" w-screen max-h-screen min-h-screen overflow-y-scroll lg:hidden"
+        className=" w-screen max-h-screen min-h-screen overflow-y-scroll lg:hidden pb-48"
       >
         <SheetClose asChild>
           <Button

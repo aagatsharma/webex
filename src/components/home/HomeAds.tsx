@@ -12,7 +12,7 @@ const HomeAds = () => {
         </div>
         <div className="flex flex-col gap-y-3  ">
           <h2 className=" text-3xl">
-            Webex Suite: Intelligent collaboration for any workstyle.
+            Hoostly Suite: Intelligent collaboration for any workstyle.
           </h2>
           <h3 className="text-lg">
             See how customers achieved a 204% ROI with integrated calling,

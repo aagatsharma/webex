@@ -7,7 +7,7 @@ import {
 
 const menu = {
   Products: [
-    { name: "Webex Suite", link: "/webex-suite" },
+    { name: "Hoostly Suite", link: "/hoostly-suite" },
     { name: "Meetings", link: "/meetings" },
     { name: "Calling", link: "/calling" },
     { name: "Messaging", link: "/messaging" },
@@ -39,21 +39,21 @@ const menu = {
     { name: "Pricing", link: "/pricing" },
     { name: "Downloads", link: "/downloads" },
     { name: "Help Center", link: "/help-center" },
-    { name: "Webex Community", link: "/webex-community" },
+    { name: "Hoostly Community", link: "/hoostly-community" },
     { name: "Product Essentials", link: "/product-essentials" },
     { name: "Watch Webinars", link: "/watch-webinars" },
     { name: "App Hub", link: "/app-hub" },
     { name: "Accessibility", link: "/accessibility" },
-    { name: "Webex Blog", link: "/webex-blog" },
+    { name: "Hoostly Blog", link: "/hoostly-blog" },
     { name: "Developers", link: "/developers" },
   ],
   Company: [
     { name: "Cisco", link: "/cisco" },
     { name: "Contact Support", link: "/contact-support" },
     { name: "Contact Sales", link: "/contact-sales" },
-    { name: "Webex Merch Store", link: "/webex-merch-store" },
+    { name: "Hoostly Merch Store", link: "/hoostly-merch-store" },
     { name: "Careers", link: "/careers" },
-    { name: "Webex Leap", link: "/webex-leap" },
+    { name: "Hoostly Leap", link: "/hoostly-leap" },
   ],
 };
 

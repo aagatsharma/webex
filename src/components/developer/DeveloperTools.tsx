@@ -16,7 +16,7 @@ const DeveloperTools = () => {
             Embed your app in real time or async
           </h1>
           <h3 className="text-gray-300 text-xl text-center z-40">
-            Fully immerse your app into Webex meetings and spaces.
+            Fully immerse your app into Hoostly meetings and spaces.
           </h3>
           <Button className=" text-white border-2 rounded-full p-8 text-lg hover:text-black hover:bg-white duration-300 w-30 bg-transparent z-40">
             Go to Docs

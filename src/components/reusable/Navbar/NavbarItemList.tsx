@@ -43,36 +43,33 @@ const NavbarItemList = () => {
     <div className="flex pl-3 items-center">
       {products.map((product, index) => (
         <div key={index}>
-          {product.component ? (
-            <div className="group">
-              <Button
-                variant="link"
-                className="text-white flex items-center justify-center border-b-2 border-transparent hover:border-emerald-600"
-                onClick={() => handleButtonClick(index)}
-              >
-                <span className={showNav[index] ? "text-emerald-600" : ""}>
-                  {product.label}
-                </span>
-                <ChevronDown
-                  className={`${
-                    showNav[index] ? "rotate-180 text-emerald-600" : ""
-                  } duration-300 w-4 h-4`}
-                />
-              </Button>
-              {showNav[index] && (
-                <div className="flex flex-col absolute left-0 top-full p-10 w-full bg-white z-20 text-black duration-300 shadow-2xl">
-                  {product.component}
-                </div>
-              )}
-            </div>
-          ) : (
+          <div className="group">
             <Button
               variant="link"
-              className="text-white flex items-center justify-center border-transparent border-b-2 hover:border-emerald-600"
+              className="text-white flex items-center justify-center border-b-2 border-transparent hover:border-emerald-600"
+              onClick={() => handleButtonClick(index)}
             >
-              <Link to={product.link}>{product.label}</Link>
+              {product.component ? (
+                <>
+                  <span className={showNav[index] ? "text-emerald-600" : ""}>
+                    {product.label}
+                  </span>
+                  <ChevronDown
+                    className={`${
+                      showNav[index] ? "rotate-180 text-emerald-600" : ""
+                    } duration-300 w-4 h-4`}
+                  />
+                </>
+              ) : (
+                <Link to={product.link}>{product.label}</Link>
+              )}
             </Button>
-          )}
+            {product.component !== undefined && showNav[index] && (
+              <div className="flex flex-col absolute left-0 top-full p-10 w-full bg-white z-20 text-black duration-300 shadow-2xl">
+                {product.component}
+              </div>
+            )}
+          </div>
         </div>
       ))}
     </div>

@@ -6,7 +6,7 @@ import { ArrowRight } from "lucide-react";
 
 const DeveloperWhy = () => {
   return (
-    <div className="my-10 max-w-7xl m-auto text-white">
+    <div className="my-10 max-w-7xl m-auto text-white py-10 border-b max-md:mx-4 ">
       <h1 className=" text-5xl">Why Hoostly</h1>
       <div className="mt-10 grid grid-cols-3 max-md:grid-cols-1 gap-6 place-items-stretch mx-3">
         <div className="flex flex-col justify-between gap-y-8 ">
@@ -17,7 +17,7 @@ const DeveloperWhy = () => {
             even device.
           </p>
           <div>
-            <Button className="text-red-500 hover:text-red-300">
+            <Button className="text-red-500 hover:text-red-300 bg-transparent hover:bg-transparent">
               Explore the suite <ArrowRight />
             </Button>
           </div>
@@ -30,7 +30,7 @@ const DeveloperWhy = () => {
             time.
           </p>
           <div>
-            <Button className="text-red-500 hover:text-red-300">
+            <Button className="text-red-500 hover:text-red-300 bg-transparent hover:bg-transparent">
               Read Analysis <ArrowRight />
             </Button>
           </div>
@@ -42,7 +42,7 @@ const DeveloperWhy = () => {
             Expand your user base by tapping into millions of Hoostly users.
           </p>
           <div>
-            <Button className="text-red-500 hover:text-red-300">
+            <Button className="text-red-500 hover:text-red-300 bg-transparent hover:bg-transparent">
               Learn More <ArrowRight />
             </Button>
           </div>

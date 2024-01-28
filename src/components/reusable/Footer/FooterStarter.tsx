@@ -8,7 +8,7 @@ const FooterStarter = () => {
   return (
     <div className="relative h-full w-full ">
       <img
-        className="object-cover h-[700px] w-full"
+        className="object-cover h-[500px] w-full"
         src={bgImage}
         alt="Background Image"
       />

@@ -9,10 +9,10 @@ import Pricing from "./pages/Pricing";
 import Meetings from "./pages/Meetings";
 import Developer from "./pages/Developer";
 import Accessibility from "./pages/Accessibility";
-import Customer from "./pages/Customer";
 import Footer from "./components/reusable/Footer/Footer";
 
 import Navbar from "./components/reusable/Navbar/Navbar";
+import Contact from "./pages/Contact";
 
 const Layout = () => (
   <>
@@ -53,7 +53,7 @@ export default function App() {
         },
         {
           path: "/contact-us",
-          element: <Customer />,
+          element: <Contact />,
         },
       ],
     },

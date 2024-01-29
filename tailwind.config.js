@@ -26,6 +26,8 @@ module.exports = {
         "contact-card-middle":
           "url('/src/assets/contact/cards-middle-latest-new-jan.jpg')",
         "contact-card-right": "url('/src/assets/contact/cards-right.jpg')",
+        "according-img":
+          "url('/src/assets/contact/global-industrygraphic.jpg')",
       },
       colors: {
         black: "#181818",

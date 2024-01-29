@@ -21,6 +21,12 @@ module.exports = {
       fontFamily: {
         roboto: ["Roboto", "sans-serif"],
       },
+      backgroundImage: {
+        "contact-card-left": "url('/src/assets/contact/cards-left.jpg')",
+        "contact-card-middle":
+          "url('/src/assets/contact/cards-middle-latest-new-jan.jpg')",
+        "contact-card-right": "url('/src/assets/contact/cards-right.jpg')",
+      },
       colors: {
         black: "#181818",
         border: "hsl(var(--border))",

@@ -73,7 +73,6 @@ const HomeTabs = () => {
                 value={tab.label}
                 className=" text-xl text-black/60 border-b-2 border-white rounded-none
                 duration-300 max-md:text-sm"
-                // data-[state=active]:border-emerald-600
               >
                 {tab.label}
               </TabsTrigger>
@@ -82,7 +81,7 @@ const HomeTabs = () => {
         </TabsList>
 
         {tabsData.map((tab) => (
-          <TabsContent value={tab.label} className="max-w-7xl m-auto  my-10">
+          <TabsContent value={tab.label} className="max-w-7xl m-auto my-10">
             <TabCards
               label={tab.label}
               description={tab.description}

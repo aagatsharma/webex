@@ -51,8 +51,8 @@ const ContactPartnership = () => {
         <h1 className="text-5xl font-bold">Strong partnerships.</h1>
         <h1 className="text-5xl font-bold">Incredible integrations.</h1>
         <h2 className="text-2xl text-black/60">
-          Harness the power of Webex and Cisco by enabling your business to mix
-          and match the best-of-breed solutions that suit your specific
+          Harness the power of Hoostly and Cisco by enabling your business to
+          mix and match the best-of-breed solutions that suit your specific
           requirements.
         </h2>
       </div>

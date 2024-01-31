@@ -24,28 +24,28 @@ const contactcarousel = [
   {
     id: 1,
     title:
-      "Webex enabled 12,000 call center employees to rapidly transition to remote work, resulting in boosted satisfaction for customers and agents.",
+      "Hoostly enabled 12,000 call center employees to rapidly transition to remote work, resulting in boosted satisfaction for customers and agents.",
     img: tmobileimg,
     svg: tmobilesvg,
   },
   {
     id: 2,
     title:
-      "After an unexpected disruption to the travel insurance industry, Cover-More launched Webex Contact Center to better meet customer needs.",
+      "After an unexpected disruption to the travel insurance industry, Cover-More launched Hoostly Contact Center to better meet customer needs.",
     img: covermoreimg,
     svg: covermoresvg,
   },
   {
     id: 3,
     title:
-      "After a long search for a contact center solution with cutting-edge technology and simple onboarding, First Horizon chose Webex.",
+      "After a long search for a contact center solution with cutting-edge technology and simple onboarding, First Horizon chose Hoostly.",
     img: horizonimg,
     svg: horizonsvg,
   },
   {
     id: 4,
     title:
-      "Webex was able to quickly transform the City of Buffalo’s essential 311 call center and allow agents to work safely from home.",
+      "Hoostly was able to quickly transform the City of Buffalo’s essential 311 call center and allow agents to work safely from home.",
     img: cityimg,
     svg: citysvg,
   },

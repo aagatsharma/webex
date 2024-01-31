@@ -12,17 +12,17 @@ const ContactAccordin = () => {
     {
       title: "Future- proof innovation from a market leader.",
       description:
-        "With decades of experience in the contact center industry and innovation at its core, Webex is a true market leader and the last contact center solution you’ll ever need.",
+        "With decades of experience in the contact center industry and innovation at its core, Hoostly is a true market leader and the last contact center solution you’ll ever need.",
     },
     {
       title: "Single platform for collaboration and contact center.",
       description:
-        "Webex gives you one proven vendor to trust. One platform to manage. And one experience to connect with customers and colleagues.",
+        "Hoostly gives you one proven vendor to trust. One platform to manage. And one experience to connect with customers and colleagues.",
     },
     {
       title: "Trusted solution that’s secure, flexible, and scalable.",
       description:
-        "Your mission-critical contact center can rely on Webex–a secure, open, and flexible platform that interoperates with all your systems and can scale to meet your evolving business needs.",
+        "Your mission-critical contact center can rely on Hoostly–a secure, open, and flexible platform that interoperates with all your systems and can scale to meet your evolving business needs.",
     },
   ];
   return (

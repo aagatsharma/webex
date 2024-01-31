@@ -53,10 +53,12 @@ const HomeTabs = () => {
       <Tabs defaultValue={tabsData[0].label}>
         <TabsList className="bg-transparent flex justify-evenly h-auto max-2xl:w-auto w-full mx-2  ">
           {tabsData.map((tab) => (
-            <button
+            <TabsTrigger
               key={tab.label}
+              value={tab.label}
               onClick={() => setActiveTab(tab.label)}
-              className={` relative md:px-3 py-1.5 text-sm font-medium text-white transition bg-transparent `}
+              className={` relative py-1.5 font-medium text-white transition bg-transparent text-xl text-black/60 border-b-2 border-transparent rounded-none
+              max-md:text-sm data-[state=active]:border-transparent data-[state=active]:bg-transparent data-[state=active]:shadow-none  `}
               style={{
                 WebkitTapHighlightColor: "transparent",
               }}
@@ -64,19 +66,13 @@ const HomeTabs = () => {
               {activeTab === tab.label && (
                 <motion.span
                   layoutId="bubble"
-                  className="absolute inset-0 z-10 border-b border-emerald-600 bg-transparent "
+                  className="absolute inset-0 z-10 border-b border-emerald-600  "
                   transition={{ type: "keyframes", bounce: 0.2, duration: 0.3 }}
                 />
               )}
-              <TabsTrigger
-                key={tab.label}
-                value={tab.label}
-                className=" text-xl text-black/60 border-b-2 border-transparent rounded-none
-                 max-md:text-sm data-[state=active]:border-transparent data-[state=active]:bg-transparent data-[state=active]:shadow-none"
-              >
-                {tab.label}
-              </TabsTrigger>
-            </button>
+
+              {tab.label}
+            </TabsTrigger>
           ))}
         </TabsList>
 

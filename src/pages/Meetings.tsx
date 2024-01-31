@@ -1,5 +1,13 @@
+import MeetingsEngageCard from "@/components/meetings/MeetingsEngageCard";
+import MeetingsStarter from "@/components/meetings/MeetingsStarter";
+
 const Meetings = () => {
-  return <div>Meetings</div>;
+  return (
+    <div>
+      <MeetingsStarter />
+      <MeetingsEngageCard />
+    </div>
+  );
 };
 
 export default Meetings;

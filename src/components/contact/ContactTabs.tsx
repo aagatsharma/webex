@@ -3,7 +3,7 @@ import BusinessTab from "./Tabs/BusinessTab";
 import CustomerTab from "./Tabs/CustomerTab";
 import AgentTab from "./Tabs/AgentTab";
 
-let tabsData = [
+const tabsData = [
   { label: "Customer", component: <CustomerTab /> },
   { label: "Agents", component: <AgentTab /> },
   { label: "Business", component: <BusinessTab /> },

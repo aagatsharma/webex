@@ -46,17 +46,17 @@ const tabsData = [
 ];
 
 const HomeTabs = () => {
-  let [activeTab, setActiveTab] = useState(tabsData[0].label);
+  const [activeTab, setActiveTab] = useState(tabsData[0].label);
 
   return (
     <div className="max-w-7xl m-auto my-8">
       <Tabs defaultValue={tabsData[0].label}>
-        <TabsList className="max-w-5xl m-auto bg-transparent flex justify-evenly  w-full">
+        <TabsList className="max-w-5xl m-auto bg-transparent flex justify-evenly h-auto md:w-full  mx-2">
           {tabsData.map((tab) => (
             <button
               key={tab.label}
               onClick={() => setActiveTab(tab.label)}
-              className={` relative px-3 py-1.5 text-sm font-medium text-white transition bg-transparent `}
+              className={` relative md:px-3 py-1.5 text-sm font-medium text-white transition bg-transparent `}
               style={{
                 WebkitTapHighlightColor: "transparent",
               }}
@@ -64,15 +64,15 @@ const HomeTabs = () => {
               {activeTab === tab.label && (
                 <motion.span
                   layoutId="bubble"
-                  className="absolute inset-0 z-10 border-b-2 border-emerald-600 bg-transparent  "
+                  className="absolute inset-0 z-10 border-b border-emerald-600 bg-transparent "
                   transition={{ type: "keyframes", bounce: 0.2, duration: 0.3 }}
                 />
               )}
               <TabsTrigger
                 key={tab.label}
                 value={tab.label}
-                className=" text-xl text-black/60 border-b-2 border-white rounded-none
-                duration-300 max-md:text-sm"
+                className=" text-xl text-black/60 border-b-2 border-transparent rounded-none
+                 max-md:text-sm data-[state=active]:border-transparent data-[state=active]:bg-transparent data-[state=active]:shadow-none"
               >
                 {tab.label}
               </TabsTrigger>
@@ -81,7 +81,10 @@ const HomeTabs = () => {
         </TabsList>
 
         {tabsData.map((tab) => (
-          <TabsContent value={tab.label} className="max-w-7xl m-auto my-10">
+          <TabsContent
+            value={tab.label}
+            className="max-w-7xl m-auto my-10 px-2"
+          >
             <TabCards
               label={tab.label}
               description={tab.description}

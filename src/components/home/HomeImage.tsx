@@ -12,7 +12,7 @@ const HomeImage = () => {
           alt="Background Image"
         />
         <div className="absolute inset-0 max-w-7xl m-auto flex flex-col justify-end bottom-20 px-2 ">
-          <p className="text-white md:text-7xl text-5xl  font-bold md:w-[770px]">
+          <p className="text-white md:text-7xl text-3xl  font-bold md:w-[770px]">
             One collaboration suite, endless possibilities.
           </p>
 

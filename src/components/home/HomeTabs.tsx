@@ -49,9 +49,9 @@ const HomeTabs = () => {
   const [activeTab, setActiveTab] = useState(tabsData[0].label);
 
   return (
-    <div className="max-w-7xl m-auto my-8">
+    <div className="max-w-7xl m-auto md:my-8 my-4">
       <Tabs defaultValue={tabsData[0].label}>
-        <TabsList className="max-w-5xl m-auto bg-transparent flex justify-evenly h-auto md:w-full  mx-2">
+        <TabsList className="bg-transparent flex justify-evenly h-auto max-2xl:w-auto w-full mx-2  ">
           {tabsData.map((tab) => (
             <button
               key={tab.label}
@@ -83,7 +83,7 @@ const HomeTabs = () => {
         {tabsData.map((tab) => (
           <TabsContent
             value={tab.label}
-            className="max-w-7xl m-auto my-10 px-2"
+            className="max-w-7xl m-auto md:my-10 my-4 px-2"
           >
             <TabCards
               label={tab.label}

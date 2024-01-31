@@ -48,7 +48,7 @@ const ContactAccordin = () => {
           <div className="w-full place-self-end ">
             <Accordion type="single" collapsible className="w-full px-5 ">
               {accordinItem.map((acc) => (
-                <AccordionItem value={acc.title}>
+                <AccordionItem value={acc.title} key={acc.title}>
                   <AccordionTrigger className="font-bold text-2xl text-white hover:no-underline text-left">
                     {acc.title}
                   </AccordionTrigger>

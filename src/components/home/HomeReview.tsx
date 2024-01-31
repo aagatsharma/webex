@@ -42,7 +42,10 @@ const HomeReview = () => {
   ];
   return (
     <div className=" bg-emerald-50 py-6 w-screen">
-      <Carousel className=" max-w-64 m-auto w-full sm:max-w-xs md:max-w-xl lg:max-w-4xl xl:max-w-6xl">
+      <Carousel
+        className=" max-w-64 m-auto w-full sm:max-w-xs md:max-w-xl lg:max-w-4xl xl:max-w-6xl"
+        opts={{ loop: true }}
+      >
         <CarouselContent>
           {itemsArray.map((items, index) => (
             <CarouselItem key={index}>

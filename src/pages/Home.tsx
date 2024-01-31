@@ -6,7 +6,7 @@ import HomeTabs from "@/components/home/HomeTabs";
 
 const Home = () => {
   return (
-    <div>
+    <div className="-mt-20">
       <HomeImage />
       <HomeReview />
       <HomeTabs />

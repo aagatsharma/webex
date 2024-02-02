@@ -32,6 +32,14 @@ const MobileNavContent = () => {
       label: "Plans and Pricing",
       link: "/pricing",
     },
+    {
+      label: "Join a Meeting",
+      link: "/meetings",
+    },
+    {
+      label: "Accessibility",
+      link: "/accessibility",
+    },
   ];
   return (
     <Accordion type="single" collapsible className="mt-10">

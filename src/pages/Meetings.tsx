@@ -1,3 +1,4 @@
+import MeeingsBusiness from "@/components/meetings/MeeingsBusiness";
 import MeetingsCollaborateAccordion from "@/components/meetings/MeetingsCollaborateAccordion";
 import MeetingsEngageCard from "@/components/meetings/MeetingsEngageCard";
 import MeetingsStarter from "@/components/meetings/MeetingsStarter";
@@ -10,6 +11,7 @@ const Meetings = () => {
       <MeetingsEngageCard />
       <MeetingsWorkCarousel />
       <MeetingsCollaborateAccordion />
+      <MeeingsBusiness />
     </div>
   );
 };

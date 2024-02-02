@@ -49,7 +49,7 @@ const MeetingsCollaborateAccordion = () => {
             The Webex way.
           </h1>
         </div>
-        <div className=" ">
+        <div>
           <Button
             size="lg"
             className="h-14 bg-emerald-600 text-white rounded-full text-base hover:bg-black 
@@ -84,7 +84,7 @@ const MeetingsCollaborateAccordion = () => {
                 className="group"
               >
                 <AccordionTrigger
-                  className=" hover:no-underline text-3xl text-black group-hover:text-emerald-600 text-left"
+                  className=" hover:no-underline text-3xl text-black group-hover:text-emerald-600 text-left data-[state=open]:text-emerald-600"
                   iconType="none"
                 >
                   {acc.title}

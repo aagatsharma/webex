@@ -133,7 +133,7 @@ const MeetingReviewsCarousel = () => {
       <img
         src={green}
         alt="Background gradient"
-        className="absolute bottom-0 right-0 rotate-180 -z-10  h-full w-full"
+        className="absolute right-0 bottom-0 -scale-x-100 -scale-y-100 -z-10  h-full w-full"
       />
     </div>
   );

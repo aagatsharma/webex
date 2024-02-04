@@ -72,16 +72,22 @@ const MeetingReviewsCarousel = () => {
     });
   }, [api]);
   return (
-    <div className=" flex p-20 items-start gap-10 relative">
+    <div className=" py-20 flex lg:p-20 p-4 max-2xl:flex-col lg:items-start lg:gap-10 relative">
       <Carousel setApi={setApi}>
         <CarouselContent>
           {reviews.map((review) => (
             <CarouselItem key={review.author}>
-              <div className="flex gap-10 items-start justify-between">
-                <img src={review.image} alt="Image" className="w-80" />
+              <div className="flex gap-10 max-xl:flex-col items-start justify-between">
+                <img
+                  src={review.image}
+                  alt="Image"
+                  className="lg:h-40 lg:w-80 h-20"
+                />
 
                 <div className="flex flex-col gap-3 ">
-                  <h1 className="text-3xl">"{review.description}"</h1>
+                  <h1 className="lg:text-3xl text-2xl">
+                    "{review.description}"
+                  </h1>
                   <h3 className="text-black/60">- {review.author}</h3>
                   <div>
                     <Button
@@ -101,22 +107,22 @@ const MeetingReviewsCarousel = () => {
         <CarouselNext className="hidden" ref={carouselNextRef} />
       </Carousel>
 
-      <div className="flex gap-3 items-center ">
+      <div className="flex gap-3 items-center  ">
         <Button
           disabled={current === 1}
-          className="bg-black h-20 w-20 hover:bg-emerald-600 rounded-full"
+          className="bg-black lg:h-20 lg:w-20 w-16 h-16 hover:bg-emerald-600 rounded-full"
           onClick={() => {
             carouselPrevRef.current && carouselPrevRef.current.click();
           }}
         >
-          <ChevronLeft className=" h-20 w-20" />
+          <ChevronLeft className=" lg:h-20 lg:w-20 h-10 w-10" />
         </Button>
         <h1 className="text-3xl">
           {current}/{count}
         </h1>
         <Button
           disabled={current === count}
-          className="bg-black h-20 w-20 hover:bg-emerald-600 rounded-full"
+          className="bg-black lg:h-20 lg:w-20 w-16 h-16 hover:bg-emerald-600 rounded-full"
           onClick={() => {
             carouselNextRef.current && carouselNextRef.current.click();
           }}

@@ -1,5 +1,7 @@
 import MeeingsBusiness from "@/components/meetings/MeeingsBusiness";
+import MeetingReviewsCarousel from "@/components/meetings/MeetingReviewsCarousel";
 import MeetingsCollaborateAccordion from "@/components/meetings/MeetingsCollaborateAccordion";
+import MeetingsCollaborateGrid from "@/components/meetings/MeetingsCollaborateGrid";
 import MeetingsEngageCard from "@/components/meetings/MeetingsEngageCard";
 import MeetingsStarter from "@/components/meetings/MeetingsStarter";
 import MeetingsWorkCarousel from "@/components/meetings/MeetingsWorkCarousel";
@@ -12,6 +14,8 @@ const Meetings = () => {
       <MeetingsWorkCarousel />
       <MeetingsCollaborateAccordion />
       <MeeingsBusiness />
+      <MeetingsCollaborateGrid />
+      <MeetingReviewsCarousel />
     </div>
   );
 };

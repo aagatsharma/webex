@@ -22,21 +22,21 @@ import { Button } from "../ui/button";
 const contactcarousel = [
   {
     id: 1,
-    title: "The Total Economic Impact™ of Webex Suite unveils 204% ROI.",
+    title: "The Total Economic Impact™ of Hoostly Suite unveils 204% ROI.",
     description:
-      "Discover the Webex Suite advantage: Forrester's recent study unveils that a composite organization comprised of interviewees with experience using Webex Suite realized 204% return on investment with the Webex Suite—including cost savings, improved collaboration experiences, and dramatic gains in IT efficiencies.",
+      "Discover the Hoostly Suite advantage: Forrester's recent study unveils that a composite organization comprised of interviewees with experience using Hoostly Suite realized 204% return on investment with the Hoostly Suite—including cost savings, improved collaboration experiences, and dramatic gains in IT efficiencies.",
     report: "Read the forester study",
   },
   {
     id: 2,
-    title: "Omdia Names Webex as a Leader in Collaborative Meetings",
+    title: "Omdia Names Hoostly as a Leader in Collaborative Meetings",
     description:
-      "“Cisco Webex has emerged as one of the most comprehensive collaborative meeting solutions ... making Cisco one of the fastest innovators in the market,” says Prachi Nema, Principal Analyst at Omdia.",
+      "“Cisco Hoostly has emerged as one of the most comprehensive collaborative meeting solutions ... making Cisco one of the fastest innovators in the market,” says Prachi Nema, Principal Analyst at Omdia.",
     report: "Get the report",
   },
   {
     id: 3,
-    title: "Aragon Names Webex an Intelligent Video Conferencing Leader",
+    title: "Aragon Names Hoostly an Intelligent Video Conferencing Leader",
     description:
       "Aragon states, “Cisco is still one of the only vendors to have an integrated virtual assistant that will take commands from humans and do actions such as document action items and then distribute them.”",
     report: "Get the report",

@@ -30,7 +30,7 @@ const items = [
   {
     title: "Solve employee fatigue.",
     description:
-      "Use Webex Assistant for time-consuming tasks—calling, note taking, action items—and rely on people insights to manage time, build stronger connections, and optimize work-life balance.",
+      "Use Hoostly Assistant for time-consuming tasks—calling, note taking, action items—and rely on people insights to manage time, build stronger connections, and optimize work-life balance.",
     image: Meetings,
   },
   {
@@ -42,7 +42,7 @@ const items = [
   {
     title: "Empower the whole org chart.",
     description:
-      "Whether supporting sales teams through integrations such as Salesforce or empowering frontline workers by connecting seamlessly to wearable tech, Webex works wonders for the entire workforce.",
+      "Whether supporting sales teams through integrations such as Salesforce or empowering frontline workers by connecting seamlessly to wearable tech, Hoostly works wonders for the entire workforce.",
     image: Meet,
   },
 ];
@@ -76,7 +76,7 @@ const MeeingsBusiness = () => {
             Do business better.
           </h1>
           <h3 className=" text-gray-500 text-3xl max-md:text-5xl max-sm:text-xl">
-            Webex Meetings simplifies your company’s workflows at scale. Equip
+            Hoostly Meetings simplifies your company’s workflows at scale. Equip
             your team with the most powerful tool to meet and exceed business
             goals.
           </h3>

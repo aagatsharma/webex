@@ -57,7 +57,7 @@ const MeetingsConferenceCarousel = () => {
         pagination
         grabCursor
         modules={[Pagination]}
-        className="pb-10 px-6 my-20"
+        className="pb-10 px-6 mt-40"
       >
         {contactcarousel.map((carousel) => (
           <SwiperSlide key={carousel.id}>

@@ -5,6 +5,7 @@ import MeetingsCollaborateGrid from "@/components/meetings/MeetingsCollaborateGr
 import MeetingsCompare from "@/components/meetings/MeetingsCompare";
 import MeetingsConferenceCarousel from "@/components/meetings/MeetingsConferenceCarousel";
 import MeetingsEngageCard from "@/components/meetings/MeetingsEngageCard";
+import MeetingsExperience from "@/components/meetings/MeetingsExperience";
 import MeetingsStarter from "@/components/meetings/MeetingsStarter";
 import MeetingsWorkCarousel from "@/components/meetings/MeetingsWorkCarousel";
 
@@ -20,6 +21,7 @@ const Meetings = () => {
       <MeetingReviewsCarousel />
       <MeetingsCompare />
       <MeetingsConferenceCarousel />
+      <MeetingsExperience />
     </div>
   );
 };

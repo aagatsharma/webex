@@ -3,6 +3,7 @@ import MeetingReviewsCarousel from "@/components/meetings/MeetingReviewsCarousel
 import MeetingsCollaborateAccordion from "@/components/meetings/MeetingsCollaborateAccordion";
 import MeetingsCollaborateGrid from "@/components/meetings/MeetingsCollaborateGrid";
 import MeetingsCompare from "@/components/meetings/MeetingsCompare";
+import MeetingsConferenceCarousel from "@/components/meetings/MeetingsConferenceCarousel";
 import MeetingsEngageCard from "@/components/meetings/MeetingsEngageCard";
 import MeetingsStarter from "@/components/meetings/MeetingsStarter";
 import MeetingsWorkCarousel from "@/components/meetings/MeetingsWorkCarousel";
@@ -18,6 +19,7 @@ const Meetings = () => {
       <MeetingsCollaborateGrid />
       <MeetingReviewsCarousel />
       <MeetingsCompare />
+      <MeetingsConferenceCarousel />
     </div>
   );
 };

@@ -8,7 +8,7 @@ const DeveloperStarter = () => {
       <div className="max-w-7xl m-auto relative grid grid-cols-2 max-md:grid-cols-1 gap-10 place-items-center  h-full max-md:pt-10">
         <div className="flex flex-col gap-y-6">
           <h1 className="bg-gradient-to-r from-sky-600 to-purple-400 inline-block text-transparent bg-clip-text text-6xl">
-            Build With Hoostly
+            Build With Webex
           </h1>
           <h2 className=" text-gray-400 text-3xl">
             Champion hybrid work with a collaboration platform that's engaging,

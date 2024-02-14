@@ -9,7 +9,7 @@ const ContactStarter = () => {
       <div className="max-w-7xl m-auto">
         <div className=" grid grid-cols-2 max-md:grid-cols-1 w-full gap-6">
           <div>
-            <h1 className="text-white text-6xl font-bold">Hoostly</h1>
+            <h1 className="text-white text-6xl font-bold">Webex</h1>
             <h1 className=" text-emerald-300 text-6xl font-semibold">
               Contact Center
             </h1>

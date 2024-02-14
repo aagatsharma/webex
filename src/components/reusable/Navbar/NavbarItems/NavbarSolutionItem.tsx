@@ -14,17 +14,17 @@ const NavbarSolutionItem = () => {
   const supportArray = [
     "Product Help",
     "Product Essentials",
-    "Hoostly Community",
+    "Webex Community",
     "Contact Support",
-    "Hoostly Insider",
+    "Webex Insider",
   ];
 
   const learnArray = [
-    "Hoostly Blog",
+    "Webex Blog",
     "Customer Stories",
     "Thought Leadership",
     "Live & On-Demand Webinars",
-    "Hoostly Academy",
+    "Webex Academy",
   ];
 
   const integrationsArray = [

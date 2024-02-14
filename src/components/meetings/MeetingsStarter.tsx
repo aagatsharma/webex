@@ -7,7 +7,7 @@ const MeetingsStarter = () => {
   return (
     <div className="min-h-screen grid grid-cols-2 max-lg:grid-cols-1 justify-items-center place-content-center xl:ml-28 gap-10 p-3 max-lg:pt-10 relative ">
       <div className="flex flex-col gap-6 z-40">
-        <h1 className="text-4xl max-md:text-2xl">Hoostly Meetings </h1>
+        <h1 className="text-4xl max-md:text-2xl">Webex Meetings </h1>
         <h1 className=" text-8xl max-md:text-4xl font-bold">
           Where common ground is found.
         </h1>

@@ -32,13 +32,13 @@ const reviews = [
   },
   {
     description:
-      "Hoostly was the obvious choice, and it’s still the superior platform. It is what we needed for security and confidentiality. Hoostly is an established brand, easy to use, familiar to all, and simultaneous interpretation on top of all of its other features makes it just perfect for our industry.",
+      "Webex was the obvious choice, and it’s still the superior platform. It is what we needed for security and confidentiality. Webex is an established brand, easy to use, familiar to all, and simultaneous interpretation on top of all of its other features makes it just perfect for our industry.",
     author: "Nada Buric, Director, Aion",
     image: aion,
   },
   {
     description:
-      "Hoostly Meetings enables us to conduct ‘one-to-many' sessions. We can have seven partners in one session, each with a local language translation, and with an individual breakout room when needed. It encourages real dialogue.",
+      "Webex Meetings enables us to conduct ‘one-to-many' sessions. We can have seven partners in one session, each with a local language translation, and with an individual breakout room when needed. It encourages real dialogue.",
     author: "Billy Haining, Cofounder, Glu Group",
     image: glugroup,
   },
@@ -94,7 +94,7 @@ const MeetingReviewsCarousel = () => {
                       variant="link"
                       className="border-b border-transparent  hover:border-emerald-600 space-x-2 px-0 text-emerald-600 "
                     >
-                      Explore Hoostly
+                      Explore Webex
                       <ArrowRight />
                     </Button>
                   </div>

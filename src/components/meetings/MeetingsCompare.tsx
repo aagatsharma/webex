@@ -8,7 +8,7 @@ const MeetingsCompare = () => {
         <div className="flex flex-col gap-7 lg:pt-10 ">
           <h1 className="lg:text-6xl text-4xl">See how Webex compares.</h1>
           <h3 className="text-gray-500 text-lg lg:text-2xl">
-            Hoostly complete, integrated platform delivers enormous benefits for
+            Webex complete, integrated platform delivers enormous benefits for
             customer organizations in terms of simplified deployment, security,
             management, and analytics.
           </h3>

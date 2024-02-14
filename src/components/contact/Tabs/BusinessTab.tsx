@@ -34,12 +34,12 @@ const BusinessTab = () => {
           <div className="flex items-center py-3 border-b gap-6">
             <img src={svg4} alt="Image" />
             <p className="text-white text-2xl">
-              Hoostly App Hub & developer tools
+              Webex App Hub & developer tools
             </p>
           </div>
           <div className="flex items-center py-3 border-b gap-6">
             <img src={svg5} alt="Image" />
-            <p className="text-white text-2xl">Hoostly Control Hub</p>
+            <p className="text-white text-2xl">Webex Control Hub</p>
           </div>
           <Button className=" text-emerald-600 bg-transparent my-6 px-0 hover:underline hover:bg-transparent">
             Learn More

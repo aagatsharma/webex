@@ -46,7 +46,7 @@ const MeetingsCollaborateAccordion = () => {
             Connect and collaborate.
           </h1>
           <h1 className="text-7xl max-md:text-5xl max-sm:text-3xl font-bold">
-            The Hoostly way.
+            The Webex way.
           </h1>
         </div>
         <div>

@@ -7,7 +7,7 @@ import { ArrowRight } from "lucide-react";
 const DeveloperWhy = () => {
   return (
     <div className="my-10 max-w-7xl m-auto text-white py-10 border-b max-md:mx-4 ">
-      <h1 className=" text-5xl">Why Hoostly</h1>
+      <h1 className=" text-5xl">Why Webex</h1>
       <div className="mt-10 grid grid-cols-3 max-md:grid-cols-1 gap-6 place-items-stretch mx-3">
         <div className="flex flex-col justify-between gap-y-8 ">
           <img src={why1} alt="Image1" className="w-20 h-20" />
@@ -39,7 +39,7 @@ const DeveloperWhy = () => {
           <img src={why3} alt="Image1" className="w-20 h-20" />
           <h1 className="text-3xl">Global reach</h1>
           <p className="text-gray-300 text-xl">
-            Expand your user base by tapping into millions of Hoostly users.
+            Expand your user base by tapping into millions of Webex users.
           </p>
           <div>
             <Button className="text-red-500 hover:text-red-300 bg-transparent hover:bg-transparent">

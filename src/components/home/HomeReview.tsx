@@ -33,11 +33,11 @@ const HomeReview = () => {
   const itemsArray = [
     {
       icon: TMobile,
-      text: " “We have relied on Hoostly for nearly every aspect of our business over the past 2 years.”",
+      text: " “We have relied on Webex for nearly every aspect of our business over the past 2 years.”",
     },
     {
       icon: WhatsNewImg,
-      text: "“The level of innovation we get with Hoostly makes it so much easier for us to run our business.”",
+      text: "“The level of innovation we get with Webex makes it so much easier for us to run our business.”",
     },
   ];
   return (

@@ -17,14 +17,14 @@ const AccCards = () => {
       <div className="my-20 flex gap-6 px-3 max-lg:flex-col">
         <TextDownCards
           title="Keyboard accessibility"
-          description="Hoostly supports the use of screen readers and is also committed to the
+          description="Webex supports the use of screen readers and is also committed to the
           continuous expansion of our compatibility with screen reader features."
           image={keyboard}
           bg="white"
         />
         <TextLeftCards
           title="Keyboard accessibility"
-          description="Hoostly supports the use of screen readers and is also committed to the
+          description="Webex supports the use of screen readers and is also committed to the
           continuous expansion of our compatibility with screen reader features."
           image={screenreader}
           bg="black"
@@ -39,7 +39,7 @@ const AccCards = () => {
       <div className="my-20 flex gap-6 px-3 max-lg:flex-col">
         <TextLeftCards
           title="Font & icons​​"
-          description="Choose high contrast settings so that it's easier to view the text and icons in Hoostly."
+          description="Choose high contrast settings so that it's easier to view the text and icons in Webex."
           image={fonticon}
           bg="black"
         />

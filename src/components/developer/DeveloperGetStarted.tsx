@@ -50,7 +50,7 @@ const DeveloperGetStarted = () => {
           <img src={starter4} alt="Image1" className="w-20 h-20" />
           <h1 className="text-3xl">Dev Community</h1>
           <p className="text-gray-300 text-xl">
-            Support from our extensive Hoostly Community in minutes.
+            Support from our extensive Webex Community in minutes.
           </p>
           <div>
             <Button className="text-sky-500 hover:text-sky-300 bg-transparent hover:bg-transparent">

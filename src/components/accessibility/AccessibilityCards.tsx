@@ -9,7 +9,7 @@ const AccessibilityCards = () => {
             Accessibility features, built for you.
           </h1>
           <h3 className=" w-[450px] text-2xl max-md:w-full">
-            At Hoostly, our goal is to create a truly inclusive experience that
+            At Webex, our goal is to create a truly inclusive experience that
             can adapt to everyone. That’s why we build and continuously improve
             our collaboration solutions with accessibility, usability, and
             inclusivity at the forefront.

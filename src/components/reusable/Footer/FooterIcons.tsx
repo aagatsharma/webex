@@ -14,7 +14,7 @@ const FooterIcons = () => {
           </div>
           <div>
             <p className=" text-xs mt-3">
-              © 2024 Hoostly and/or its affiliates. All Rights Reserved.
+              © 2024 Webex and/or its affiliates. All Rights Reserved.
             </p>
           </div>
         </div>

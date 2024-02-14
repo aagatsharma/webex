@@ -8,7 +8,7 @@ const AccessibilityStarter = () => {
           Collaboration that works for everyone.
         </h1>
         <h3 className="text-5xl text-center max-md:text-2xl">
-          Hoostly is committed to making collaboration accessible and inclusive
+          Webex is committed to making collaboration accessible and inclusive
           for people of all abilities and backgrounds.
         </h3>
         <img src={starter} alt="Hero Image" />

@@ -23,7 +23,7 @@ const MeetingsCollaborateGrid = () => {
             variant="link"
             className="border-b border-transparent  hover:border-emerald-600 space-x-2 px-0 text-emerald-600 "
           >
-            Explore Hoostly
+            Explore Webex
             <ArrowRight />
           </Button>
         </div>

@@ -9,7 +9,7 @@ const MeetingsExperience = () => {
     <div className="lg:py-40 relative">
       <div className="flex flex-col lg:px-40 max-md:p-10 my-7">
         <h1 className="md:text-7xl text-4xl font-bold">Experience more from</h1>
-        <h1 className="md:text-7xl text-4xl font-bold">Hoostly.</h1>
+        <h1 className="md:text-7xl text-4xl font-bold">Webex.</h1>
         <h3 className="text-gray-500 text-lg lg:text-2xl pt-7">
           Get the most complete collaboration portfolio.
         </h3>
@@ -36,7 +36,7 @@ const MeetingsExperience = () => {
           <img src={card2} alt="Cards" className="rounded-3xl" />
           <div className="mt-6 gap-5 flex justify-between items-center">
             <div className="flex flex-col gap-4">
-              <h1 className=" text-3xl ">Hoostly Webinars</h1>
+              <h1 className=" text-3xl ">Webex Webinars</h1>
               <h3 className="text-gray-500 text-lg">
                 Host virtual meetings at scale from 100 to 10,000 without
                 sacrificing engagement.
